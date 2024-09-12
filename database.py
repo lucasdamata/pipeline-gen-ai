@@ -1,6 +1,6 @@
 import psycopg2
 from psycopg2 import sql
-from contract import Sales
+from contract import Sale
 import streamlit as st
 from dotenv import load_dotenv
 import os
@@ -15,7 +15,7 @@ DB_USER = os.getenv("DB_USER")
 DB_PASS = os.getenv("DB_PASS")
 
 # Função para salvar os dados validados no PostgreSQL
-def save(data: Sales):
+def save_sale(data: Sale):
     """
     Função para salvar no postgres
     """

@@ -7,7 +7,7 @@ class ProductEnum(str, Enum):
     product_2 = "ZapFlow com chatGPT"
     product_3 = "ZapFlow com Llama3.0"
 
-class Sales(BaseModel):
+class Sale(BaseModel):
     """
     Modelo de dados para as vendas.
 

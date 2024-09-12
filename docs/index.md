@@ -1,7 +1,7 @@
 # Docs
 
-::: contract.Sales
+::: contract.Sale
 
-:::database.save
+:::database.save_sale
 
 
